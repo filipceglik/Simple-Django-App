@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Course sign up</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+      <div class="navbar-header">
+        <a href="navbars.html" class="navbar-brand">Home</a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Sign In</a></li>
+      </ul>
+      </div>
+    </nav>
+    <div class="jumbotron container">
+
+
+    <h1>Course Sing up page</h1>
+    <p>All fields required</p>
+
+      <form action="thanks.html" method="get">
+        <div class="container">
+
+
+        <label for="fn">First Name:</label>
+        <input id="fn" type="text" name="" value="" placeholder="First Name" required>
+
+        <label for="ln">Last Name:</label>
+        <input id="ln" type="text" name="" value="" placeholder="Last Name" required>
+
+        <p></p>
+
+        <label for="mail">Email: </label>
+        <input type="mail" name="" placeholder="eg. john@mail.com" required>
+
+        <label for="pass">Password: </label>
+        <input type="password" name="" placeholder="password" required>
+
+        <p>Are you over 18?</p>
+
+          <label for="y">Yes</label>
+          <input id="y" type="radio" name="age" value="yes" required>
+
+          <label for="n">No</label>
+          <input id="n" type="radio" name="age" value="no">
+
+          <p>Do you have credit card or paypal?</p>
+          <select name="payment">
+            <option value="cc">Credit Card</option>
+            <option value="pp">Paypal</option>
+          </select>
+
+          <p></p>
+
+          <input type="submit" name="" value="Submit!">
+          </div>
+      </form>
+      </div>
+  </body>
+</html>
